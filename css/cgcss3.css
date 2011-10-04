@@ -1,4 +1,11 @@
-﻿@import url("keyframes.css");
+﻿/*Welcome to Titulus*/
+
+/* -moz- equivalent to Firefox */
+/* -webkit- equivalent to Safari, Chrome */
+/* -o- equivalent to Opera */
+/* -ms- equivalent to IE 9 */
+
+@import url("keyframes.css");
 
 #div1{
 	background-color: red;
@@ -56,16 +63,6 @@
 	width: 10px;
 	height: 24px;
 }
-
-/*Welcome to Tincidunt */
-/*Welcome to Auxilium*/
-/*Welcome to Titulus*/
-/*Welcome to Liquidus*/
-
-/* -moz- equivalent to Firefox */
-/* -webkit- equivalent to Safari, Chrome */
-/* -o- equivalent to Opera */
-/* -ms- equivalent to IE 9 */
 
 
 /* ----------Figures---------- */
