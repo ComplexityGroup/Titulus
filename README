@@ -1,0 +1,73 @@
+Titulus  -  CSS3 Library
+By Complexity Group
+
+Description
+This is the amazing and helpful tool for the easy CSS3 implementation, animations and effects.
+
+
+Cómo usar
+
+1. Descarga titulus, descomprimelo en la carpeta raíz de tu CSS
+2. Declara titulus.css en el <head> de tu archivo .html
+3. Declara la clase que desees usar dentro del elemento a aplicar
+<!-- Citar ejemplo -->
+4. Mira el resultado.
+
+
+Detalles
+
+Titulus es una librería CSS3 la cual facilita la implementación de estilos
+simplificando su uso tan solo declarando clases dentro de las diferentes
+etiquetas html.
+
+Dale un vistazo a la sección Demos y declara el titulo del efecto que desees
+dentro de la clase que vas a utilizar y así obtendrás el resultado deseado.
+
+Los efectos están divididos en grupos diferenciados por colores, no puedes
+utilizar dos clases que pertenezcan al mismo grupo de colores ya que 
+causarán conflicto.
+
+Actualmente no todos los navegadores soportan las propiedades CSS3, 
+por esta razón cada ejemplo irá acompañado de información acerca de los 
+navegadores que soportan cada clase.
+
+Esta es una librería en desarrollo y de libre uso donde se irán implementando
+nuevos estilos y funcionalidades.
+
+
+
+
+
+
+
+How to use
+
+1. Download and unzip Titulus in the CSS root folder
+2. Declare titulus.css in your head tag of the .html file
+3. Declare the class you wish to use into the tag to apply
+<!-- Citar ejemplo -->
+4. Look at the powa!
+
+
+Details
+
+Titulus is a CSS3 library that provides an easier styles implementation, simplifying 
+its use just by calling the class into any HTML tag.
+
+Check the Demos page and copy the title of the example which is the name of the class to use
+to get the result you want.
+
+The effects are split into colored groups, but you can't use two classes of the same colored group
+because they will conflict with each other(not compatible).
+
+Today not all browsers support all of the CSS3 properties, for this reason
+every example contain browser support information.
+
+This is an open source library in development which will continue to grow with new style implementations
+and functonality.
+
+
+
+
+Titulus Copyrights Complexity Group 2011
+Cali, Colombia
