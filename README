@@ -5,12 +5,42 @@ Description
 This is the amazing and helpful tool for the easy CSS3 implementation, animations and effects.
 
 
+
+How to use
+
+1. Download and unzip Titulus in the CSS root folder
+2. Declare titulus.css in your head tag of the .html file
+3. Declare the class you wish to use into the tag to apply
+4. Look at the powa!
+
+
+Details
+
+Titulus is a CSS3 library that provides an easier styles implementation, simplifying 
+its use just by calling the class into any HTML tag.
+
+Check the Demos page and copy the title of the example which is the name of the class to use
+to get the result you want.
+
+The effects are split into colored groups, but you can't use two classes of the same colored group
+because they will conflict with each other(not compatible).
+
+Today not all browsers support all of the CSS3 properties, for this reason
+every example contain browser support information.
+
+This is an open source library in development which will continue to grow with new style implementations
+and functonality.
+
+
+
+
+
+
 Cómo usar
 
 1. Descarga titulus, descomprimelo en la carpeta raíz de tu CSS
 2. Declara titulus.css en el <head> de tu archivo .html
 3. Declara la clase que desees usar dentro del elemento a aplicar
-<!-- Citar ejemplo -->
 4. Mira el resultado.
 
 
@@ -34,37 +64,6 @@ navegadores que soportan cada clase.
 Esta es una librería en desarrollo y de libre uso donde se irán implementando
 nuevos estilos y funcionalidades.
 
-
-
-
-
-
-
-How to use
-
-1. Download and unzip Titulus in the CSS root folder
-2. Declare titulus.css in your head tag of the .html file
-3. Declare the class you wish to use into the tag to apply
-<!-- Citar ejemplo -->
-4. Look at the powa!
-
-
-Details
-
-Titulus is a CSS3 library that provides an easier styles implementation, simplifying 
-its use just by calling the class into any HTML tag.
-
-Check the Demos page and copy the title of the example which is the name of the class to use
-to get the result you want.
-
-The effects are split into colored groups, but you can't use two classes of the same colored group
-because they will conflict with each other(not compatible).
-
-Today not all browsers support all of the CSS3 properties, for this reason
-every example contain browser support information.
-
-This is an open source library in development which will continue to grow with new style implementations
-and functonality.
 
 
 

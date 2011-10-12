@@ -112,3 +112,36 @@
 		transform:rotate(-360deg);
 	}
 }
+
+
+
+
+@-webkit-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-moz-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-ms-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@-o-keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}
+
+@keyframes floating{
+	0%  {top:0px;}
+	50%	{top:15px;}
+	100% {top: 0px;}
+}

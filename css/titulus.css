@@ -1,77 +1,38 @@
-﻿/*Welcome to Titulus*/
+﻿@import url("keyframes.css");
+
+/*Welcome to Titulus*/
 
 /* -moz- equivalent to Firefox */
 /* -webkit- equivalent to Safari, Chrome */
 /* -o- equivalent to Opera */
 /* -ms- equivalent to IE 9 */
 
-@import url("keyframes.css");
-
-#div1{
-	background-color: red;
-	width: 400px;
-	height: 400px;
-	font-size: 60px;
-}
-
-#div2{
-	background-image: url('imagen1.png');
-	width: 100px;
-	height: 100px;
-	font-size: 60px;
-}
-
-#x{
-	font-size: 60px;
-}
-
-#cg{
-	background-color: black;
-	color: white;
-	font-size: 18px;
-	font-family: SFOldRepublic;
-	height: 50px;
-}
-
-#theX:hover{
-	background-size: 16px 34px;
-	background-repeat: no-repeat;
-	text-indent: -10000px;
-	display: inline-block;
-	width: 16px;
-	position: relative;
-	top: 6px;
-	padding: 10px 0;
-}
-
-@font-face
-{
-	font-family: SFOldRepublic;
-	src: url('cgfont/SFOldRepublic.ttf');
-}
-
-#theX{
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	background-image: url('x.png');
-	background-repeat: no-repeat;
-	background-size: 10px 24px;
-	text-indent: -10000px;
-	display: inline-block;
-	width: 10px;
-	height: 24px;
-}
-
 
 /* ----------Figures---------- */
 .circle{
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-o-border-radius: 100%;
-	-ms-border-radius: 100%;
-	border-radius: 100%;
+
+	border-radius: 100px 100px 100px 100px;
+	
+	-moz-border-radius-topleft: 100%;
+	-webkit-border-top-left-radius: 100%;
+	-o-border-top-left-radius: 100%;
+	border-top-left-radius: 100%;
+
+	-moz-border-radius-topright: 100%;
+	-webkit-border-top-right-radius: 100%;
+	-o-border-top-right-radius: 100%;
+	border-top-right-radius: 100%;
+
+	-moz-border-radius-bottomleft: 100%;
+	-webkit-border-bottom-left-radius: 100%;
+	-o-border-bottom-left-radius: 100%;
+	border-bottom-left-radius: 100%;
+
+	-moz-border-radius-bottomright: 100%;
+	-webkit-border-bottom-right-radius: 100%;
+	-o-border-bottom-right-radius: 100%;
+	border-bottom-right-radius: 100%;
+
 }
 
 /* ----------Border radius 5px---------- */
@@ -191,10 +152,10 @@
 }
 
 .bs-medium{
-	-moz-box-shadow: 5px 5px 10px #888;
-	-webkit-box-shadow: 5px 5px 10px #888;
-	-o-box-shadow: 5px 5px 10px #888;
-	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 1px 1px 30px #000;
+	-webkit-box-shadow: 1px 1px 30px #000;
+	-o-box-shadow: 1px 1px 30px #000;
+	box-shadow: 1px 1px 30px #000;
 }
 
 .bs-hard{
@@ -297,6 +258,15 @@
 }
 
 /* ----------Animations---------- */
+
+.pause-anim:hover{ /* Explain this class*/
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+}
+
+	/* ---- rotation animations */
 .rot-360-r-loop{
 	-webkit-animation: rotation360 1.2s infinite linear;
 	-moz-animation: rotation360 1.2s infinite linear;
@@ -347,15 +317,25 @@
 	-o-animation: rotation-360 1.2s infinite linear;
 }
 
-.stop-rot:hover{
-	-webkit-animation-play-state: paused;
-	-moz-animation-play-state: paused;
-	-ms-animation-play-state: paused;
-	-o-animation-play-state: paused;
+	/* ---- translation animations */
+.levitate{
+	-webkit-animation: floating 3s infinite linear;
+	-moz-animation: floating 3s infinite linear;
+	-ms-animation: floating 3s infinite linear;
+	-o-animation: floating 3s infinite linear;
+	position: relative;
+}
+
+	/* ---- scale animations */
+.stretch-width-loop{
+	-webkit-animation: stretchwidthloop 3s infinite linear;
+	-moz-animation: stretchwidthloop 3s infinite linear;
+	-ms-animation: stretchwidthloop 3s infinite linear;
+	-o-animation: stretchwidthloop 3s infinite linear;
 }
 
 /* ----------Scale---------- */
-.scale-half{
+.scale-half:hover{
 	transform: scale(0.5,0.5);
 	-ms-transform: scale(0.5,0.5);
 	-webkit-transform: scale(0.5,0.5);
@@ -363,7 +343,7 @@
 	-moz-transform: scale(0.5,0.5);
 }
 
-.scale-x2{
+.scale-x2:hover{
 	transform: scale(2,2);
 	-ms-transform: scale(2,2);
 	-webkit-transform: scale(2,2);
@@ -371,7 +351,7 @@
 	-moz-transform: scale(2,2);
 }
 
-.scale-2x1y{
+.scale-2x1y:hover{
 	transform: scale(2,1);
 	-ms-transform: scale(2,1);
 	-webkit-transform: scale(2,1);
@@ -379,7 +359,7 @@
 	-moz-transform: scale(2,1);
 }
 
-.scale-1x2y{
+.scale-1x2y:hover{
 	transform: scale(1,2);
 	-ms-transform: scale(1,2);
 	-webkit-transform: scale(1,2);
