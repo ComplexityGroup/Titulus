@@ -1,12 +1,17 @@
-﻿@import url("keyframes.css");
+﻿/* Titul.us
+ * Developed by Complexity Group
+ * Coders: @5h1rU and @JustJuanca
+ * Be a Ninja Guy! Hell Yeah!!
+ * Version 0.1
+ * */
 
-/*Welcome to Titulus*/
 
-/* -moz- equivalent to Firefox */
-/* -webkit- equivalent to Safari, Chrome */
-/* -o- equivalent to Opera */
-/* -ms- equivalent to IE 9 */
+/* -moz- equivalent to Firefox 
+*  -webkit- equivalent to Safari, Chrome
+*  -o- equivalent to Opera 
+*  -ms- equivalent to IE 9 */
 
+@import url("keyframes.css");
 
 /* ----------Figures---------- */
 .circle{
